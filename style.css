@@ -1,0 +1,64 @@
+*,*::before,*::after{
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+  display: flex;
+  height: 100vh;
+}
+
+form {
+  margin: auto ;
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  font-style: italic;
+  position: absolute ;
+  width: 100%;
+  text-align: center;
+  top: 150px;
+}
+
+p {
+  font-size: 1.5rem;
+  font-style: italic;
+  position: absolute;
+  width: 100%;
+  bottom: 70px;
+  text-align: center;
+}
+
+li {
+  margin-top: 4px;
+}
+
+li:first-of-type {
+  margin-top: 0px;
+}
+
+button {
+  margin-top: 60px;
+}
+
+button {
+  padding: 25px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
